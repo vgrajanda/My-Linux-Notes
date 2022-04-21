@@ -1,0 +1,5 @@
+Some useful commands to remember
+
+Audio:
+
+Rescan audio devices -> "pulseaudio -k && pactl load-module module-detect"

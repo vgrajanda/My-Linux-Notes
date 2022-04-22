@@ -3,3 +3,18 @@ Some useful commands to remember
 Audio:
 
 Rescan audio devices -> "pulseaudio -k && pactl load-module module-detect"
+
+
+VirtualBox
+
+Some times you need to do certain commands to make VB work properly
+
+	- modprobe vboxdrv (You can modprobe the other drivers like vboxnetadp, vboxnetflt, vboxpci)
+	- sudo rcvboxdrv
+
+	Packages that you will need:
+
+	- virtualbox-host-modules-arch
+	- virtualbox-host-dkms
+	- base-devel
+	- linux-lts-headers
